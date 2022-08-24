@@ -2,6 +2,6 @@
 
 ### [Say "Hello, World!" With C++](https://www.hackerrank.com/challenges/cpp-hello-world/problem?isFullScreen=true "Say 'Hello, World!' With C++")
 
-'''cpp
+```cpp
 cout<<"Hello, World!";
-'''
+```
