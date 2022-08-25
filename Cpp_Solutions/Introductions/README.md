@@ -5,3 +5,8 @@
 ```cpp
 cout<<"Hello, World!";
 ```
+### [Input and Output](https://www.hackerrank.com/challenges/cpp-input-and-output/problem?isFullScreen=true "Input and Output")
+
+```cpp
+    
+```
