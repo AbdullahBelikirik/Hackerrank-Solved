@@ -19,3 +19,11 @@ if n%2 == 1:
         elif n>20 :
             print("Not Weird")
 ```
+
+### [Arithmetic Operators](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem?isFullScreen=true "Arithmetic Operators")
+
+```py
+print(a+b)
+print(a-b)
+print(a*b)
+```
