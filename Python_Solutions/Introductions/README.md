@@ -10,7 +10,7 @@ print("Hello, World!")
 
 ```py
 if n%2 == 1:
-        print("Weird")
+    print("Weird")
     else:
         if 2<=n<=5:
             print("Not Weird")
