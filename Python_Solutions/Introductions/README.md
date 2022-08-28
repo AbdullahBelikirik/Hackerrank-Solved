@@ -5,3 +5,17 @@
 ```py
 print("Hello, World!")
 ```
+
+### [Python If-Else](https://www.hackerrank.com/challenges/py-if-else/problem?isFullScreen=true "Python If-Else")
+
+```py
+if n%2 == 1:
+        print("Weird")
+    else:
+        if 2<=n<=5:
+            print("Not Weird")
+        elif 6<=n<=20 :
+            print("Weird")
+        elif n>20 :
+            print("Not Weird")
+```
