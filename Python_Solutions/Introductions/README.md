@@ -37,3 +37,10 @@ def is_leap(year):
         leap = True
     return leap
 ```
+
+### [Python: Division](https://www.hackerrank.com/challenges/python-division/problem?isFullScreen=true "Python: Division")
+
+```py
+print(a//b)
+print(a/b)
+```
