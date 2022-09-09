@@ -45,8 +45,9 @@ print(a//b)
 print(a/b)
 ```
 
-### []()
+### [Loops](https://www.hackerrank.com/challenges/python-loops/problem?isFullScreen=true "Loops")
 
 ```py
-
+for i in range(n):
+    print(i*i)
 ```
