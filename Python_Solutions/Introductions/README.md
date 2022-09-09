@@ -51,3 +51,10 @@ print(a/b)
 for i in range(n):
     print(i*i)
 ```
+
+### [Print Function](https://www.hackerrank.com/challenges/python-print/problem?isFullScreen=true "Print Function")
+
+```py
+for i in range(n):
+    print(i+1, end = '')
+```
