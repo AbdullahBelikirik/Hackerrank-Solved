@@ -23,3 +23,38 @@ double e;
 scanf("%d %ld %c %f %lf",&a,&b,&c,&d,&e);
 printf("%d\n%ld\n%c\n%.3f\n%.9lf",a,b,c,d,e);
 ```
+
+### [Conditional Statements](https://www.hackerrank.com/challenges/c-tutorial-conditional-if-else/problem?isFullScreen=true "Conditional Statements")
+
+```cpp
+if (n_temp == "1"){
+        cout<<"one";
+    }
+    else if (n_temp == "2"){
+        cout<<"two";
+    }
+    else if (n_temp == "3"){
+        cout<<"three";
+    }
+    else if (n_temp == "4"){
+        cout<<"four";
+    }
+    else if (n_temp == "5"){
+        cout<<"five";
+    }
+    else if (n_temp == "6"){
+        cout<<"six";
+    }
+    else if (n_temp == "7"){
+        cout<<"seven";
+    }
+    else if (n_temp == "8"){
+        cout<<"eight";
+    }
+    else if (n_temp == "9"){
+        cout<<"nine";
+    }
+    else {
+        cout<<"Greater than 9";
+    }
+```
