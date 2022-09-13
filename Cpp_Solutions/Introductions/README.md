@@ -28,33 +28,79 @@ printf("%d\n%ld\n%c\n%.3f\n%.9lf",a,b,c,d,e);
 
 ```cpp
 if (n_temp == "1"){
-        cout<<"one";
+    cout<<"one";
+}
+else if (n_temp == "2"){
+    cout<<"two";
+}
+else if (n_temp == "3"){
+    cout<<"three";
+}
+else if (n_temp == "4"){
+    cout<<"four";
+}
+else if (n_temp == "5"){
+    cout<<"five";
+}
+else if (n_temp == "6"){
+    cout<<"six";
+}
+else if (n_temp == "7"){
+    cout<<"seven";
+}
+else if (n_temp == "8"){
+    cout<<"eight";
+}
+else if (n_temp == "9"){
+    cout<<"nine";
+}
+else{
+    cout<<"Greater than 9";
+}
+```
+
+### [For Loop](https://www.hackerrank.com/challenges/c-tutorial-for-loop/problem?isFullScreen=true&h_r=next-challenge&h_v=zen "For Loop")
+
+```cpp
+int a,b,n;
+cin>>a;
+cin>>b;
+   
+for(n=a; n<=b; n++){ 
+    if (n == 1){
+        cout<<"one\n";
     }
-    else if (n_temp == "2"){
-        cout<<"two";
+    else if (n == 2){
+        cout<<"two\n";
     }
-    else if (n_temp == "3"){
-        cout<<"three";
+    else if (n == 3){
+        cout<<"three\n";
     }
-    else if (n_temp == "4"){
-        cout<<"four";
+    else if (n == 4){
+        cout<<"four\n";
     }
-    else if (n_temp == "5"){
-        cout<<"five";
+    else if (n == 5){
+        cout<<"five\n";
     }
-    else if (n_temp == "6"){
-        cout<<"six";
+    else if (n == 6){
+        cout<<"six\n";
     }
-    else if (n_temp == "7"){
-        cout<<"seven";
+    else if (n == 7){
+        cout<<"seven\n";
     }
-    else if (n_temp == "8"){
-        cout<<"eight";
+    else if (n == 8){
+        cout<<"eight\n";
     }
-    else if (n_temp == "9"){
-        cout<<"nine";
+    else if (n == 9){
+        cout<<"nine\n";
     }
     else {
-        cout<<"Greater than 9";
-    }
+        if(((int)n)%2 == 0){
+            cout<<"even\n";
+        }
+        else{
+            cout<<"odd\n";
+        }
+    }    
+}
 ```
