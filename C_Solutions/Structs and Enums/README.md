@@ -1,4 +1,4 @@
-### [Boxes Through a Tunnel] (https://www.hackerrank.com/challenges/too-high-boxes/problem?isFullScreen=true "Boxes Through a Tunnel")
+### [Boxes Through a Tunnel](https://www.hackerrank.com/challenges/too-high-boxes/problem?isFullScreen=true "Boxes Through a Tunnel")
 
 ```c
 struct box{
