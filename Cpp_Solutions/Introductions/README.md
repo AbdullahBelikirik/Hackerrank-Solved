@@ -114,3 +114,14 @@ int max_of_four(int a, int b, int c, int d){
     else return max(c,d);
 }
 ```
+
+### [Pointer](https://www.hackerrank.com/challenges/c-tutorial-pointer/problem?isFullScreen=true "Pointer")
+
+```cpp
+void update(int *a,int *b) {
+    int tmp = *a;
+    *a = tmp + *b;
+    if(tmp<*b) *b -= tmp;
+    else *b = tmp - *b;
+}
+```
