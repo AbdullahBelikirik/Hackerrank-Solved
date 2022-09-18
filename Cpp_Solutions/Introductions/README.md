@@ -104,3 +104,13 @@ for(n=a; n<=b; n++){
     }    
 }
 ```
+
+### [Functions](https://www.hackerrank.com/challenges/c-tutorial-functions/problem?isFullScreen=true "Functions")
+
+```cpp
+int max_of_four(int a, int b, int c, int d){
+    if(max(a,b)>max(c,d))
+    return max(a,b);
+    else return max(c,d);
+}
+```
