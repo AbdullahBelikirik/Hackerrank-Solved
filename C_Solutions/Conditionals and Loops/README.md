@@ -32,3 +32,19 @@ else {
     printf("Greater than 9");
 }
 ```
+
+### [Printing Pattern Using Loops](https://www.hackerrank.com/challenges/printing-pattern-2/problem?isFullScreen=true "Printing Pattern Using Loops")
+
+```c
+int n, i, j;
+scanf("%d", &n);
+for(i=-n+1;i<n;i++){
+    for(j=-n+1;j<n;j++){
+        if(abs(i)>abs(j))
+        printf("%d ",abs(i)+1);
+        else 
+        printf("%d ",abs(j)+1);
+    }
+    printf("\n");
+}
+```
