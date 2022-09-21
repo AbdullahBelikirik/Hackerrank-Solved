@@ -1,1 +1,1 @@
-### [C Questions](https://www.hackerrank.com/domains/c "C Questions")
+# [C Questions](https://www.hackerrank.com/domains/c "C Questions")
