@@ -1,4 +1,4 @@
-### [Conditional Statements in C](https://www.hackerrank.com/challenges/conditional-statements-in-c/problem?isFullScreen=true "Conditional Statements in C")
+### [Conditional Statements in C](https://www.hackerrank.com/challenges/conditional-statements-in-c/problem "Conditional Statements in C")
 
 ```c
 if(n==1){
@@ -33,7 +33,7 @@ else {
 }
 ```
 
-### [Printing Pattern Using Loops](https://www.hackerrank.com/challenges/printing-pattern-2/problem?isFullScreen=true "Printing Pattern Using Loops")
+### [Printing Pattern Using Loops](https://www.hackerrank.com/challenges/printing-pattern-2/problem "Printing Pattern Using Loops")
 
 ```c
 int n, i, j;
@@ -49,7 +49,7 @@ for(i=-n+1;i<n;i++){
 }
 ```
 
-### [For Loop in C](hackerrank.com/challenges/for-loop-in-c/problem?isFullScreen=true "For Loop in C")
+### [For Loop in C](hackerrank.com/challenges/for-loop-in-c/problem "For Loop in C")
     
 ```c
 int a, b, i;
@@ -92,5 +92,35 @@ for(i=a; i<=b; i++){
             printf("odd\n");
         }
     }
+}
+```
+
+### [Sum of Digits of a Five Digit Number](www.hackerrank.com/challenges/sum-of-digits-of-a-five-digit-number/problem "Sum of Digits of a Five Digit Number")
+
+```c
+for(i=0; i<5; i++){
+    sum += ((n%(int)pow(10, i+1)))/pow(10, i);
+}
+printf("%d",sum);
+```
+### [Bitwise Operators](https://www.hackerrank.com/challenges/bitwise-operators-in-c/problem "Bitwise Operators")
+
+```c
+void calculate_the_maximum(int n, int k) {
+    int i, j, maxAnd=0, maxOr=0, maxXor=0;
+    for(i=1; i<n; i++){
+        for(j=i+1; j<n+1; j++){
+            if(((i&j)<k) && ((i&j)>maxAnd)){
+                maxAnd = i&j;
+            }
+            if(((i|j)<k) && ((i|j)>maxOr)){
+                maxOr = i|j;
+            }
+            if(((i^j)<k) && ((i^j)>maxXor)){
+                maxXor = i^j;
+            }
+        }
+    }
+    printf("%d\n%d\n%d",maxAnd,maxOr,maxXor);
 }
 ```
